@@ -1,3 +1,5 @@
+/* PARTE INICIAL DO SITE */
+
 body {
     margin: 0;
     padding: 0;
@@ -12,9 +14,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     
 }
+
+/* CABEÇALHO */
 
 #header {
     width: 100%;
@@ -24,37 +28,89 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 #head-esq {
     top: 0;
     left: 0;
-    width: 40%;
+    width: 25%;
     height: 100%;
     background-color: blue;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
+}
+
+#head-mid {
+    top: 0;
+    left: 40%;
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid yellow; */
 }
 
 #head-dir {
     top: 0;
     right: 0;
-    width: 60%;
+    width: 25%;
     height: 100%;
     background-color: blue;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
 }
 
 #icon {
     width: 180px;
     height: auto;
     margin-right: 10px;
+}
+
+#As {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#home, #about, #contact, #login, #register {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+/* CONTEÚDO */
+
+#content {
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+#content-dir {
+    text-align: center;
+    /* border: 1px solid aqua; */
+}
+
+#content-esq {
+    text-align: center;
+    /* border: 1px solid red; */
 }
