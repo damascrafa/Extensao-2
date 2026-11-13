@@ -10,7 +10,7 @@ Plataforma de cursos com React + Vite + TypeScript e Supabase (Auth + PostgreSQL
 | Testes pgTAP (`supabase/tests/`) | Escritos, **não executados**. |
 | Documentação (`docs/`) | Pronta. |
 | Esboço PHP original | Removido (substituído por Supabase + React). |
-| Frontend React + Tailwind + JavaScript (`src/`) | Escrito. Sintaxe validada (esbuild) e testes de schemas/lógica pura rodados com Node + zod. **Não compilado com Vite, não aberto no navegador, não conectado a um Supabase real.** |
+| Frontend React + Tailwind + JavaScript (`src/`) | Escrito. Sintaxe e resolução de todos os imports/exports validadas com um bundle esbuild; testes de schemas/lógica pura rodados com Node + zod. **`vite build` e `tailwindcss` (v3) não foram executados (sem rede), não aberto no navegador, não conectado a um Supabase real.** |
 
 ## Conectar ao Supabase (credenciais em branco por enquanto)
 
